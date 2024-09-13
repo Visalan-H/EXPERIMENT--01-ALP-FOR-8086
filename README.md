@@ -78,30 +78,77 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+mov AL,53H;
+mov BL,24H;
+Add AL,BL;
+HLT;
+```
 ## Output  
- 
+![add](https://github.com/user-attachments/assets/2bf35a4d-caaa-43a1-a9b0-665627074b5b)
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+mov AL,53H;
+mov BL,24H;
+sub AL,BL;
+HLT;
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/4f749fb5-315a-49c0-a0bc-d908fdaf3c44)
 ## Multiplication alp 
+```
+mov AL,53H;
+mov BL,24H;
+mul AL,BL;
+HLT;
+```
  ## Output  
-
-
+![mul](https://github.com/user-attachments/assets/758b48be-1412-4cc4-9301-70c4a4d4783c)
 ## Division alp 
-
+```
+mov AL,53H;
+mov BL,24H;
+Div AL,BL;
+HLT;
+```
 ## Output  
+![div](https://github.com/user-attachments/assets/d9113e62-3fce-4825-bacd-bd990e6afb59)
 
-
+# Programs for Logical  operations
+## Logical AND:
+```
+mov AL,53H;
+mov BL,24H;
+AND AL,BL;
+HLT;
+```
+## OUTPUT:
+![and](https://github.com/user-attachments/assets/b5448f83-deda-48c8-9425-4b5d4174c3d3)
+## Logical OR:
+```
+mov AL,53H;
+mov BL,24H;
+OR AL,BL;
+HLT;
+```
+## OUTPUT:
+![or](https://github.com/user-attachments/assets/65e8d509-b3a0-423a-8882-9867344257f1)
+## Logical NOT:
+```
+mov AL,53H;
+not AL;
+HLT;
+```
+## OUTPUT:
+![not](https://github.com/user-attachments/assets/ff8d7f43-27e7-44a9-bb58-206b96071641)
+## Logical XOR:
+```
+mov AL,53H;
+mov BL,24H;
+XOR AL,BL;
+HLT;
+```
+## OUTPUT:
+![xor](https://github.com/user-attachments/assets/bf2a2a58-c343-4211-a184-0430dfa41354)
 ## Result :
- 
-
-
-
-
-
-
-
-
+Thus the program for arithmetic operations and logical operations are complete

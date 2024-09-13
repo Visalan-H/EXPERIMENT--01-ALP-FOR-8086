@@ -86,12 +86,8 @@ mov BL,24H;
 Add AL,BL;
 HLT;
 ```
-
-
 ## Output  
 ![Adding](https://github.com/user-attachments/assets/58d68f9a-fe55-497b-bb02-303744021ace)
-
- 
 ## Subtraction   of 8 bit numbers  ALP 
  ```
 mov AL,53H;
@@ -101,7 +97,6 @@ HLT;
 ```
 ## Output  
 ![Subtraction](https://github.com/user-attachments/assets/b09f6980-61d3-4205-97ec-07840d5c7754)
-
 ## Multiplication alp 
 ```
 mov AL,53H;
@@ -111,8 +106,6 @@ HLT;
 ```
  ## Output  
 ![Multiplication](https://github.com/user-attachments/assets/be4a28e0-92cd-4a0f-b48b-35a9b4c627cf)
-
-
 ## Division alp 
 ```
 mov AL,53H;
@@ -122,7 +115,6 @@ HLT;
 ```
 ## Output  
 ![Division](https://github.com/user-attachments/assets/ad9662b8-b834-4812-84d7-b99fede3a2ff)
-
 # Programs for Logical  operations
 ## Logical AND:
 ```
@@ -131,10 +123,8 @@ mov BL,24H;
 AND AL,BL;
 HLT;
 ```
-
 ## OUTPUT:
 ![AND operation](https://github.com/user-attachments/assets/52ec0ce3-61d5-4b63-ac8a-df1539d5e10a)
-
 ## Logical OR:
 ```
 mov AL,53H;
@@ -142,20 +132,16 @@ mov BL,24H;
 OR AL,BL;
 HLT;
 ```
-
 ## OUTPUT:
 ![OR operation](https://github.com/user-attachments/assets/92e9f05d-6f80-4874-babf-be2d26b5462b)
-
 ## Logical NOT:
 ```
 mov AL,53H;
 not AL;
 HLT;
 ```
-
 ## OUTPUT:
 ![NOT operation](https://github.com/user-attachments/assets/e4361323-edd2-4d57-9428-959010f2c482)
-
 ## Logical XOR:
 ```
 mov AL,53H;
@@ -165,16 +151,41 @@ HLT;
 ```
 ## OUTPUT:
 ![XOR operation](https://github.com/user-attachments/assets/3150fb06-3795-4af8-9b76-739278e36b26)
-
-
+# Programs for Logical  operations
+## Logical AND:
+```
+mov AL,53H;
+mov BL,24H;
+AND AL,BL;
+HLT;
+```
+## OUTPUT:
+![and](https://github.com/user-attachments/assets/b5448f83-deda-48c8-9425-4b5d4174c3d3)
+## Logical OR:
+```
+mov AL,53H;
+mov BL,24H;
+OR AL,BL;
+HLT;
+```
+## OUTPUT:
+![or](https://github.com/user-attachments/assets/65e8d509-b3a0-423a-8882-9867344257f1)
+## Logical NOT:
+```
+mov AL,53H;
+not AL;
+HLT;
+```
+## OUTPUT:
+![not](https://github.com/user-attachments/assets/ff8d7f43-27e7-44a9-bb58-206b96071641)
+## Logical XOR:
+```
+mov AL,53H;
+mov BL,24H;
+XOR AL,BL;
+HLT;
+```
+## OUTPUT:
+![xor](https://github.com/user-attachments/assets/bf2a2a58-c343-4211-a184-0430dfa41354)
 ## Result :
 Thus the program for arithmetic operations and logical operations are complete
-
-
-
-
-
-
-
-
-
